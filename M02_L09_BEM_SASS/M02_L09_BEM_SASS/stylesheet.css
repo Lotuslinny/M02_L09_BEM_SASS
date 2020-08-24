@@ -1,0 +1,37 @@
+/* No CSS *//*# sourceMappingURL=stylesheet.css.map */
+@import "./stylesheet.scss";
+
+.blok--standard {
+  width: 400px;
+  height: 400px;
+  background-color: #00ffff;
+  margin-bottom:20px;
+}
+
+.block--reverse {
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  margin-bottom:20px;
+  }
+
+.blok__rond--standard {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: #ffffff;
+}
+
+.blok__rond--reverse {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: #00ffff;
+}
+
