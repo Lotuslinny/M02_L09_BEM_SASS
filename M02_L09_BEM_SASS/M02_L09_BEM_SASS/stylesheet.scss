@@ -1,0 +1,35 @@
+@mixin  size {
+  width: 400px;
+  height: 400px;
+  margin-bottom:20px;
+}
+
+@mixin size-rond {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+.blok--standard {
+  @include size();
+  background-color: #00ffff;
+}
+
+.block--reverse {
+  @include size();
+  background-color: #ffffff;
+  }
+
+.blok__rond--standard {
+ @include size-rond;
+  background-color: #ffffff;
+}
+
+.blok__rond--reverse {
+ @include size-rond;
+  background-color: #00ffff;
+}
+
